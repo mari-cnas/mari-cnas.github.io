@@ -1,6 +1,6 @@
 import { memo, ReactElement } from 'react'
 
-import code from '../../code.svg'
+import code from '../../../code.svg'
 import { HeaderDiv } from './styled'
 
 interface IBaseComponentProps {
