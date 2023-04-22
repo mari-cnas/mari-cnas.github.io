@@ -1,7 +1,7 @@
 {
   "name": "vite-react-ts-eslint-prettier-editorconfig",
   "version": "1.1.0",
-  "homepage":"http://mari-cnas.github.io/mari-cnas.github.io",
+  "homepage":"http://mari-cnas.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
