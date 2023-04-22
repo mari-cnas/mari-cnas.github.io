@@ -7,17 +7,20 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 import htmlPlugin from './htmlPlugin'
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  // https://vitest.dev/guide
-  test: {
-    environment: 'jsdom',
-  },
-  // https://vitejs.dev/plugins/
-  plugins: [
-    tsconfigPaths(),
-    htmlPlugin(loadEnv(mode, '.')),
-    react(),
-    loadVersion(),
-    ViteWebfontDownload(),
-  ],
-}))
+// export default defineConfig(({ mode }) => ({
+//   // https://vitest.dev/guide
+//   test: {
+//     environment: 'jsdom',
+//   },
+//   // https://vitejs.dev/plugins/
+//   plugins: [
+//     tsconfigPaths(),
+//     htmlPlugin(loadEnv(mode, '.')),
+//     react(),
+//     loadVersion(),
+//     ViteWebfontDownload(),
+//   ],
+// }))
+export default {
+  base: '/',
+}
